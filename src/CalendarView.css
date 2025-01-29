@@ -1,0 +1,28 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.calendar h2 {
+    text-align: center;
+}
+
+.calendar table {
+    width: 90%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.calendar th {
+    padding: 10px;
+}
+
+
+.calendar td {
+    padding: 10px;
+    vertical-align:top;
+}
